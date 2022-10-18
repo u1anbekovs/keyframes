@@ -1,0 +1,290 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+#header{
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+}
+.icon-header{
+    display: flex;
+    align-items: center;
+}
+.icon-usa{
+    font-size: 30px;
+    color: #333333;
+    margin: 0 20px;
+}
+.icon{
+    font-size: 18px;
+    margin: 0 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+    color: white;
+    padding: 50px 0;
+}
+.menu a{
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+}
+.header-btn{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    padding: 10px 30px;
+    color: white;
+    margin: 0 30px;
+}
+
+
+
+
+
+
+#section{
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+}
+.logo{
+    font-size: 100px;
+    margin: 40px 0;
+}
+.section-btn{
+    border: none;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 10px 40px;
+    color: #ED4C5C;
+    margin: 40px 0;
+}
+.section-btn:hover{
+    background: #333333;
+    width: 140px;
+}
+
+
+
+
+
+#section-one{
+    background: #FFFFFF;
+}
+.section-one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+.icon-section{
+    display: flex;
+    align-items: center;
+}
+.icon-one{
+    position: relative;
+    font-size: 70px;
+    color: #ED4C5C;
+    left: 35px;
+}
+.text-section-one{
+    color: #ED4C5C;
+    margin: 30px 0;
+}
+.text{
+    font-size: 35px;
+    margin: 30px 0;
+}
+
+
+
+
+#section-two{
+    background: #FAFAFA;
+}
+.section-two{
+    padding: 100px 0;
+}
+.logo-two{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin: 0 0 50px 0;
+}
+.img-two{
+    display: flex;
+    justify-content: space-around;
+}
+.img-section-two{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin: -120px 0 0 0;
+}
+.text-two{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.text-section-two{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin: -200px 0 0 0;
+}
+.tex{
+    color: #ED4C5C;
+    margin: 30px 0;
+}
+
+
+
+
+#section-three{
+    background: #FFFFFF;
+}
+.section-three{
+    padding: 100px 0;
+}
+.three{
+    display: flex;
+    font-size: 100px;
+    color: gainsboro;
+    justify-content: space-around;
+}
+.text-three{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+.text-thr{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.icon-three{
+    font-size: 50px;
+    color: #ED4C5C;
+    margin: -120px 0 30px;
+}
+
+
+
+
+
+#section-four{
+    background: #ED4C5C;
+}
+.section-four{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+}
+.text-four{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.text-text-four{
+    font-size: 35px;
+    margin: 30px 0;
+}
+.icon-four{
+    font-size: 30px;
+    margin: 50px 0;
+    padding: 20px;
+}
+
+
+
+
+#section-five{
+    background: #FFFFFF;
+}
+.section-five{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0;
+}
+.input{
+    border: 1px solid #333333;
+    border-radius: 6px;
+    padding: 20px 50px;
+    margin: 0 45px 20px 0;
+}
+.input-five{
+    border: 1px solid #333333;
+    border-radius: 6px;
+    padding: 20px;
+    width: 540px;
+    margin: 20px 0;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.btn-five{
+    background: #ED4C5C;
+    border: 3px solid #ED4C5C;
+    border-radius: 6px;
+    padding: 20px;
+    width: 160px;
+    color: black;
+}
+.btn-five:hover{
+    background: transparent;
+}
+.logo-five{
+    font-size: 50px ;
+    margin: 0 0 50px 0;
+}
+
+
+
+
+
+#footer{
+    background: #FAFAFA;
+}
+.footer-one{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0;
+}
+.logo-footer{
+    margin: 0 0 30px 0;
+}
+.text-footer{
+    margin: 0 0 50px 90px;
+}
+.icon-footer{
+    padding: 10px;
+    margin: 20px 0;
+}
+.icon-fo{
+    font-size: 50px;
+    color: #333333;
+}
